@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/DanarGdg/ip-address-tracker-master/static/css/main.56de5a44.css",
+    "main.js": "/DanarGdg/ip-address-tracker-master/static/js/main.57a5ea94.js",
+    "static/js/787.120cc69e.chunk.js": "/DanarGdg/ip-address-tracker-master/static/js/787.120cc69e.chunk.js",
+    "static/media/pattern-bg.png": "/DanarGdg/ip-address-tracker-master/static/media/pattern-bg.a60a3c85aa8b88aac4b7.png",
+    "index.html": "/DanarGdg/ip-address-tracker-master/index.html",
+    "static/media/icon-arrow.svg": "/DanarGdg/ip-address-tracker-master/static/media/icon-arrow.2eaaa5ee3602d5aa14a2dba69e9fb7a0.svg",
+    "main.56de5a44.css.map": "/DanarGdg/ip-address-tracker-master/static/css/main.56de5a44.css.map",
+    "main.57a5ea94.js.map": "/DanarGdg/ip-address-tracker-master/static/js/main.57a5ea94.js.map",
+    "787.120cc69e.chunk.js.map": "/DanarGdg/ip-address-tracker-master/static/js/787.120cc69e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56de5a44.css",
+    "static/js/main.57a5ea94.js"
+  ]
+}
