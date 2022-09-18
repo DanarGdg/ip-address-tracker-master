@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.leaflet-container{
+  width: 100vw;
+  height: 60vh;
+  position: absolute;
+  z-index: -1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  background: url(images/pattern-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.skeleton{
+  width: 100vw;
+  height: 60vh;
+}
+
+/* .info-ip{
+  font-size: calc;
+} */
+
+.info-ip b{
+  font-size: clamp(1rem, 2vw, 1.25rem); 
+}
+
+.info-ip p{
+  font-size: clamp(0.6rem, 2vw, 0.75rem); 
+}
+
+@media (max-width:800px) {
+  .wrapper-info-ip{
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+    text-align: center;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .info-ip{
+    border: none;
+    padding-right: 0;
+    margin-bottom: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .info-ip:last-child{
+    margin-bottom: 0;
+  }
+
+  .input-wrapper{
+    width: 85%;
+  }
+
+  .input-wrapper input{
+    width: 90%;
+  }
+
+  .input-wrapper button{
+    width: 10%;
   }
 }
