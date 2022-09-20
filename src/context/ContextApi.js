@@ -14,7 +14,7 @@ const ContextProvider = ({children}) => {
     const getData = async () => {
         setLoading(true)
         try {
-            const request = await axios.get(`http://ip-api.com/json/${searchIpValue}`)
+            const request = await axios.get(`http://ip-api.com/json/${searchIpValue}/`)
             setDatas(request.data) 
             setDatasLangtitude([request.data.lat, request.data.lon])
             console.log(request.data);
